@@ -103,7 +103,6 @@ public class UserServiceTest {
         User c = userService.login("C");
 
         // Arrancan en nueve porque ya hay 8 usuarios guardados.
-        System.out.println(a.getId());
         assertTrue(a.getId().equals(9));
         assertTrue(b.getId().equals(10));
         assertTrue(c.getId().equals(11));
